@@ -208,4 +208,4 @@ options_enu = Menu(my_menu, tearoff=False)
 my_menu.add_cascade(label="Options",menu=options_enu)
 options_enu.add_command(label="Reset Game", command=reset)
 
-reet()
+root.mainloop()
